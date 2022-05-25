@@ -1,16 +1,20 @@
-# Webpack-Base
+#Todo List
 
-Este repositorio lo utilizo para crear mis proyectos con webpack.
+![](/Todo-list.png)
 
-### Instalar dependencias:
-```
-npm install
-```
-### Construir el build:
-```
-npm run build
-```
-### Construir el DEV build:
-```
-npm build:dev
-```
+Link:
+
+### This project was built with:
+
+- HTML
+- CSS
+- JavaScript
+- Webpack
+- Babel
+- NodeJS
+
+##Note: This project may not be a fully responsive design, I tried to practize a lot the use of: 
+
+*Classes* 
+*local and session storage*
+*DOM manipulation*
