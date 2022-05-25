@@ -2,7 +2,7 @@
 
 ![](/Todo-list.png)
 
-Link:
+Link: https://lino-otm.github.io/Todo-List/
 
 ### This project was built with:
 
@@ -13,8 +13,10 @@ Link:
 - Babel
 - NodeJS
 
-## Note: This project may not be a fully responsive design, I tried to practize a lot the use of: 
+### **Note:** This project may not be a fully responsive design, I focused on practicing a lot the use of: 
 
 - **Classes.** 
-- **local and session storage.**
+- **Local and session storage.**
 - **DOM manipulation.**
+
+*The layout deisgn attribution is in the bottom (It wasn't made by me).* 
