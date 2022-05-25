@@ -1,4 +1,4 @@
-#Todo List
+# Todo List
 
 ![](/Todo-list.png)
 
@@ -13,8 +13,8 @@ Link:
 - Babel
 - NodeJS
 
-##Note: This project may not be a fully responsive design, I tried to practize a lot the use of: 
+## Note: This project may not be a fully responsive design, I tried to practize a lot the use of: 
 
-*Classes* 
-*local and session storage*
-*DOM manipulation*
+- **Classes.** 
+- **local and session storage.**
+- **DOM manipulation.**
