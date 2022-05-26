@@ -32,7 +32,7 @@ export class TodoList {
 
   countTodo() {
     let pendientes = 0;
-    let countBox = countTodo.firstElementChild;
+    let countBox   = countTodo.firstElementChild;
     for (let todo of this.todos) {
       !todo.completado === true ? pendientes++ : null;
     }

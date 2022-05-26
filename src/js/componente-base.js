@@ -8,7 +8,7 @@ const txtInput         = document.querySelector(".new-todo");
 const btnBorrar        = document.querySelector(".clear-completed");
 const ulFiltros        = document.querySelector(".filters");
 const anchorFiltros    = document.querySelectorAll(".filtro");
-export const countTodo = document.querySelector('.todo-count'); 
+export const countTodo = document.querySelector(".todo-count");
 
 export const crearTodoHtml = (todo) => {
   const htmlTodo = `<li class="${
@@ -22,7 +22,7 @@ export const crearTodoHtml = (todo) => {
   <input class="edit" value="Create a TodoMVC template">
 </li>`;
 
-  const div = document.createElement("div");
+  const div     = document.createElement("div");
   div.innerHTML = htmlTodo;
 
   divTodoList.append(div.firstElementChild);
@@ -45,8 +45,8 @@ txtInput.addEventListener("keyup", (event) => {
 
 divTodoList.addEventListener("click", (event) => {
   const nombreElemento = event.target.localName;
-  const todoElemento = event.target.parentElement.parentElement;
-  const todoId = todoElemento.getAttribute("data-id");
+  const todoElemento   = event.target.parentElement.parentElement;
+  const todoId         = todoElemento.getAttribute("data-id");
 
   if (nombreElemento.includes("input")) {
     todoList.marcarCompletado(todoId);
@@ -58,7 +58,8 @@ divTodoList.addEventListener("click", (event) => {
 });
 
 btnBorrar.addEventListener("click", () => {
-  for (let i = divTodoList.children.length - 1; i >= 0; i--) {
+  todoList.eliminarCompletados();
+  for (let i       = divTodoList.children.length - 1; i >= 0; i--) {
     const elemento = divTodoList.children[i];
 
     if (elemento.classList.contains("completed")) {
